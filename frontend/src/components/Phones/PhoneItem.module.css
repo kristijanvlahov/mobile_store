@@ -1,0 +1,108 @@
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 250px;
+  flex: 1 1 250px;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+.delete {
+  display: block;
+  cursor: pointer;
+  background-color: #c92c17;
+  border: 1px solid #c92c17;
+  margin-top: 5px;
+  color: white;
+  border-radius: 10px;
+  padding: 0.25rem 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.delete:hover,
+.delete:active {
+  background-color: #ee6767;
+  border-color: #ee6767;
+}
+.price {
+  padding-top: 10%;
+}
+.button {
+  display: block;
+  margin-top: 5px;
+  cursor: pointer;
+  background-color: #382194;
+  border: 1px solid #382194;
+  color: white;
+  border-radius: 10px;
+  padding: 0.25rem 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.button:hover,
+.button:active {
+  background-color: #6455a0;
+  border-color: #6455a0;
+  text-decoration: none;
+}
+.actions {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  color: #77002e;
+  border: 1px solid #77002e;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #ffe2ed;
+}
+
+.like {
+  margin-block: auto;
+  cursor: pointer;
+  background-color: rgb(206, 38, 38);
+  border: 1px solid rgb(206, 38, 38);
+  color: white;
+  border-radius: 10px;
+  padding: 0.2rem 0.3rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.likeimage {
+  width: 15px;
+  height: 15px;
+}
+
+.trashimage {
+  width: 15px;
+  height: 15px;
+  margin-right: 3px;
+}
+.cardheading {
+  display: flex;
+}
